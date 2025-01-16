@@ -1,0 +1,21 @@
+@import url('global.css');
+
+.nav-bar {
+    opacity: 0.5;
+    height: 57px;
+    position: relative;
+    overflow: visible;
+    background: var(--nav-bar-color);
+    border: var(--details);
+  }
+
+  .line {
+    margin-top: -2px;
+    border-style: solid;
+    border-color: #f6d331;
+    border-width: 2px 0 0 0;
+    height: 0px;
+    position: relative;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+  }

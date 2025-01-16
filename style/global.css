@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*variáveis do projeto*/
+:root {
+    --background-color: #0B0404;
+    --shape-transparency: hsla(0, 2%, 32%, 0.36);
+    --details: #F6D331;
+    --link-color: hsla(0, 0%, 100%, 0.5);
+    --text-color: hsl(0, 0%, 100%);
+    --nav-bar-color: linear-gradient(to right, hsla(211, 31%, 87%, 0.5) 0%, hsla(0, 6%, 20%, 0.5) 40%,  hsla(0, 6%, 20%, 0.5) 60%, hsla(211, 31%, 87%, 0.5) 100%);
+;
+} 
