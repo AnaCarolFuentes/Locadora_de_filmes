@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/index.css">
   <title>Login</title>
 </head>
+
 <body>
-  <header>
-    <nav class="nav-bar">
-      <div>
-        <p>LOGO</p>
+  <!-- Barra de navegação -->
+  <nav class="navbar">
+    <span class="logo">Logo</span>
+  </nav>
+
+  <!-- Container de Login -->
+  <div class="login-header">
+    <img src="assets/images/avatar.png" alt="Avatar" class="avatar">
+    <h2>Login</h2>
+  </div>
+  <div class="login-container">
+    <form class="login-form">
+      <div class="form-group">
+        <label for="username">Usuário</label>
+        <input type="text" id="username" placeholder="Digite seu usuário" required>
       </div>
-    </nav>
-    <div class="line"></div>
-  </header>
-  
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input type="password" id="password" placeholder="Digite sua senha" required>
+      </div>
+    </form>
+  </div>
+  <div class="buttons">
+    <button type="submit" class="btn">Entrar</button>
+    <button type="button" class="btn">Cadastro</button>
+  </div>
+
+  <!-- Rodapé-->
+  <footer class="footer">
+    <div class="avatar">
+      <img src="assets/images/avatar.png" alt="Avatar da locadora">
+    </div>
+    <div class="footer-container">
+      <p>Web developers: Ana Carolina Fuentes e Samuel de Mello Cagnani</p>
+      <a href="https://portal.pcs.ifsuldeminas.edu.br/">Instituto Federal do Sul de Minas Gerais - Campus Poços de
+        Caldas - 2025</a>
+    </div>
+    <div class="pipoca">
+      <img src="assets/images/popcorn.png" alt="Imagem ilustrativa de um balde de pipocas">
+    </div>
+  </footer>
+
 </body>
+
 </html>

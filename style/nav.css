@@ -1,21 +1,13 @@
 @import url('global.css');
 
-.nav-bar {
-    opacity: 0.5;
-    height: 57px;
-    position: relative;
-    overflow: visible;
+/* Barra de navegação */
+.navbar {
+    width: 100%;
     background: var(--nav-bar-color);
-    border: var(--details);
-  }
-
-  .line {
-    margin-top: -2px;
-    border-style: solid;
-    border-color: #f6d331;
-    border-width: 2px 0 0 0;
-    height: 0px;
-    position: relative;
-    transform-origin: 0 0;
-    transform: rotate(0deg) scale(1, 1);
-  }
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-bottom: 2px solid var(--details);
+}
