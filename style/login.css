@@ -81,6 +81,12 @@ main {
     justify-content: space-around;
 }
 
+.buttons a
+{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .btn {
     width: 10vh;
     background: none;
