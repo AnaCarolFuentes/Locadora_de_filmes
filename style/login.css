@@ -1,12 +1,15 @@
 @import url('global.css');
 
-
-main {
-    display: flex;
+.main_login
+{
     align-items: center;
+    text-align: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
-
 
 .login-header {
     display: inline-flex;
@@ -37,7 +40,8 @@ main {
     padding: 2rem;
     width: 50vh;
     height: 22vh;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -75,8 +79,8 @@ main {
 
 .buttons {
     display: flex;
-    margin-top: 50px;
-    width: 30vh;
+    margin-top: 3rem;
+    width: 50vh;
     height: 50px;
     justify-content: space-around;
 }
@@ -99,4 +103,11 @@ main {
 .btn:hover {
     background-color: var(--details);
     color: #000;
+}
+
+.sem_uso
+{
+    border: 1px solid var(--text-color);
+    background-color: var(--details);
+    width: 10vh;
 }

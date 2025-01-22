@@ -15,26 +15,33 @@
   </nav>
 
   <!-- Container de Login -->
-  <div class="login-header">
-    <img src="assets/images/avatar.png" alt="Avatar" class="avatar">
-    <h2>Login</h2>
-  </div>
-  <div class="login-container">
-    <form class="login-form">
-      <div class="form-group">
-        <label for="username">Usuário</label>
-        <input type="text" id="username" placeholder="Digite seu usuário" required>
+   <main class="main_login">
+    <div class="container_principal">
+      <div class="login-header">
+        <img src="assets/images/avatar.png" alt="Avatar" class="avatar">
+        <h2>Login</h2>
       </div>
-      <div class="form-group">
-        <label for="password">Senha</label>
-        <input type="password" id="password" placeholder="Digite sua senha" required>
+      <div class="login-container">
+        <form class="login-form" method="post">
+          <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
-  <div class="buttons">
-    <button type="submit" class="btn"><a href="index.html">Entrar</a></button>
-    <button type="button" class="btn"><a href="cadastro.html">Cadastro</a></button>
-  </div>
+      <div class="buttons">
+        <button class="sem_uso">Entrar</button>
+      </div>
+      <div class="buttons">
+        <button type="button" class="btn"><a href="index.html">Entrar</a></button>
+        <button type="button" class="btn"><a href="cadastro.html">Cadastro</a></button>
+      </div>
+    </div>
+   </main>
 
   <!-- Rodapé-->
   <footer class="footer">
