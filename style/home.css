@@ -1,0 +1,102 @@
+/* Estilo do main */
+.main-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 100px); 
+}
+
+/* Metade Esquerda */
+.main-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B0404; 
+    min-width: 300px; 
+}
+
+.banner {
+    width: 50%; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+/* Metade Direita */
+.main-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-width: 300px; 
+}
+
+.logo-section {
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px; 
+    margin-right: 100px;
+}
+
+.description {
+    text-align: center;
+    max-width: 5000px; 
+    margin: 0 auto; 
+    margin-bottom: 200px;
+    margin-right: 180px;
+}
+
+.description h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #FFD700; 
+    margin-top: 20px;
+}
+
+.description p {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: 'Georgia', serif;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column; 
+    }
+
+    .main-left, .main-right {
+        width: 100%; 
+        min-width: unset; 
+    }
+
+    .banner {
+        width: 90%; 
+    }
+
+    .description h2 {
+        font-size: 1.5rem; 
+    }
+
+    .description p {
+        font-size: 1rem; /
+    }
+}

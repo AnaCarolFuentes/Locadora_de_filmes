@@ -21,7 +21,7 @@
 
     position: absolute;
     margin-left: 60vh;
-    
+    z-index: 1;
 }
 
 .cadastro-header

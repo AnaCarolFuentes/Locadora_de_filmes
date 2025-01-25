@@ -18,12 +18,13 @@
     left: 0;
     text-align: center;
     border-bottom: 2px solid var(--details);
+    z-index: 10;
 }
 .navbar-container {
     max-width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 1rem;
     top: 0;
