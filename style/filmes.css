@@ -46,27 +46,25 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    margin-bottom: 10vh;
 }
 
 .card-filme {
     background: var(--shape-transparency);
     border-radius: 10px;
-    height: 214px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     transition: transform 0.3s ease;
+    width: 100%;
 }
 
 .card-filme img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .card-filme:hover {
     transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
