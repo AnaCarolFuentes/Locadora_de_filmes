@@ -5,53 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
-  <title>Home</title>
+  <title>Login</title>
 </head>
 
 <body>
   <!-- Barra de navegação -->
   <nav class="navbar">
-    <div class="navbar-container">
-      <span class="logo"><img src="assets/images/popcorn.png" alt="Imagem ilustrativa de pipoca"></span>
-      <ul class="nav-links">
-        <div class="item-atual">
-          <li><a href="">Home</a></li>
-        </div>
-        <li><a href="filmes.html">Filmes</a></li>
-        <li><a href="trailers.html">Trailers</a></li>
-        <li><a href="trilhaSonora.html">Trilha Sonora</a></li>
-        <li><a href="contatos.html">Contatos</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <div class="imagem_login">
-          <li><a href="login.html"><img src="assets/images/loginUser.png" alt="Imagem de login"></a></li>
-        </div>
-      </ul>
+    <div class="logo">
+      <img src="assets/images/popcorn.png" alt="Logo da locadora popcornflix">
     </div>
   </nav>
 
-  <main class="main-container">
-    <!-- Metade Esquerda -->
-    <section class="main-left">
-      <div class="banner">
-        <img src="assets/images/popcornflix.png" alt="Banner da locadora" class="banner-img">
+  <!-- Container de Login -->
+  <main class="main_login">
+    <div class="container_principal">
+      <div class="login-header">
+        <img src="assets/images/avatar.png" alt="Avatar" class="avatar">
+        <h2>Login</h2>
       </div>
-    </section>
-
-    <!-- Metade Direita -->
-    <section class="main-right">
-      <div class="logo-section">
-        <img src="assets/images/popcornflix_logo.png" alt="Logomarca da locadora" class="logo-img">
+      <div class="login-container">
+        <form class="login-form" method="post">
+          <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+          </div>
+        </form>
       </div>
-      <div class="description">
-        <h2>Sobre a Locadora</h2>
-        <p>Bem-vindo à Popcorn-Flix, sua nova locadora online de filmes!
-          Oferecemos uma seleção incrível de clássicos, lançamentos e produções independentes para você assistir no
-          conforto de sua casa.
-          Nosso objetivo é trazer a magia do cinema até você, com opções de streaming rápidas e acessíveis.
-          Explore nossos trailers, mergulhe nas trilhas sonoras de sucesso e conecte-se com o universo do cinema. Aqui,
-          a diversão nunca para!</p>
+      <div class="buttons">
+        <button class="sem_uso">Entrar</button>
       </div>
-    </section>
+      <div class="buttons">
+        <button type="button" class="btn"><a href="home.html">Entrar</a></button>
+        <button type="button" class="btn"><a href="cadastro.html">Cadastro</a></button>
+      </div>
+    </div>
   </main>
 
   <!-- Rodapé-->
