@@ -1,0 +1,86 @@
+@import url('global.css');
+
+.main-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.separacao_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro-imagem {
+    position: absolute;
+    margin-left: 60vh;
+    z-index: 1;
+}
+
+.cadastro-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro-header h2 {
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+}
+
+.cadastro-container {
+    background-color: var(--shape-transparency);
+    border: 1px solid #444;
+    padding: 2rem;
+}
+
+.form-group select {
+    margin: 10px;
+    background-color: var(--shape-transparency);
+    color: var(--text-color);
+    width: 15%;
+    border: 1px solid var(--details);
+}
+
+.form-group select option {
+    text-align: center;
+    background-color: var(--shape-transparency);
+    color: var(--text-color);
+    border: 1px solid var(--details);
+}
+
+.radio {
+    display: flex;
+    width: 30vh;
+    margin-top: 2vh;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.checkbox label {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    width: auto; 
+    height: auto; 
+    vertical-align: middle; 
+}
+
+.teste {
+    margin-bottom: 10px;
+}

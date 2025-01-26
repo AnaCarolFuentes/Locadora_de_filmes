@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Filmes</title>
+</head>
+
+<body>
+  <!-- Barra de navegação -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <span class="logo"><img src="assets/images/popcorn.png" alt="Imagem ilustrativa de pipoca"></span>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <div class="item-atual">
+          <li><a href="filmes.html">Filmes</a></li>
+        </div>
+        <li><a href="trailers.html">Trailers</a></li>
+        <li><a href="trilhaSonora.html">Trilha Sonora</a></li>
+        <li><a href="contatos.html">Contatos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <div class="imagem_login">
+          <li><a href="login.html"><img src="assets/images/loginUser.png" alt="Imagem de login"></a></li>
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="select-filmes">
+      <p>Filmes: </p>
+      <select name="filmes" id="filmes" onchange="redirecionar()">
+        <option class="option-filme" disabled selected>Gêneros</option>
+        <option class="option-filme" value="acao.html">Ação</option>
+        <option class="option-filme" value="terror.html">Terror</option>
+        <option class="option-filme" value="drama.html">Drama</option>
+        <option class="option-filme" value="filmes.html">Todos</option>
+      </select>
+    </div>
+
+    <section>
+      <div class="categoria">
+        <h1>Outros Lançamentos</h1>
+        <div class="filmes">
+          <a href="filmeDungeons.html"><img class="card-filme" src="assets/images/dungeons.png"
+              alt="imagem do filme dungeons"></a>
+          <a href="filmeItACoisa.html"><img class="card-filme" src="assets/images/t1.png"
+              alt="Imagem de um filme de terror"></a>
+          <a href="filmeAmor.html"><img class="card-filme" src="assets/images/amor.png" alt="Imagem do filme amor"></a>
+          <a href="filmeImaginario.html"><img class="card-filme" src="assets/images/t3.png"
+              alt="Imagem de um filme de terror"></a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="categoria">
+        <h1>Em alta</h1>
+        <div class="filmes">
+          <a href="filmeSurvisevience.html"><img class="card-filme" src="assets/images/t2.png"
+              alt="Imagem do filme aliga"></a>
+          <a href="filmeMib.html"><img class="card-filme" src="assets/images/mib.png" alt="Imagem do filme mib"></a>
+          <a href="filmeBatalhao6888.html"><img class="card-filme" src="assets/images/batalha6888.png"
+              alt="Imagem do filme batalha 6888"></a>
+          <a href="filmeTelefonePreto.html"><img class="card-filme" src="assets/images/preto.png"
+              alt="Imagem do filme telefone preto"></a>
+        </div>
+      </div>
+    </section>
+    <!---------Filmes de ação---------------->
+    <section id="acao">
+      <div class="categoria">
+        <h1>Filmes de acao</h1>
+        <div class="filmes">
+          <a href="filmeALiga.html"><img class="card-filme" src="assets/images/aliga.png"
+              alt="Imagem do filme de acao chamado aliga"></a>
+          <a href="filmeBaywatch.html"><img class="card-filme" src="assets/images/baywatch.png"
+              alt="Imagem do filme de acao chamado baywatch"></a>
+          <a href="filmeDungeons.html"><img class="card-filme" src="assets/images/dungeons.png"
+              alt="Imagem do filme de acao chamado dungeons"></a>
+          <a href="filmeMib.html"><img class="card-filme" src="assets/images/mib.png"
+              alt="Imagem do filme de acao chamado mib"></a>
+
+        </div>
+      </div>
+    </section>
+    <!---------Filmes de terror---------------->
+    <section id="terror">
+      <div class="categoria">
+        <h1>Filmes de terror</h1>
+        <div class="filmes">
+          <a href="filmeItACoisa.html"><img class="card-filme" src="assets/images/t1.png"
+              alt="Imagem do filme de terror"></a>
+          <a href="filmeSurvisevience.html"><img class="card-filme" src="assets/images/t2.png"
+              alt="Imagem do filme de terror"></a>
+          <a href="filmeImaginario.html"><img class="card-filme" src="assets/images/t3.png"
+              alt="Imagem do filme de terror"></a>
+          <a href="filmeTelefonePreto.html"><img class="card-filme" src="assets/images/preto.png"
+              alt="Imagem do filme de terror chamado o telefone preto"></a>
+        </div>
+      </div>
+    </section>
+    <!---------Filmes de drama---------------->
+    <section id="drama">
+      <div class="categoria">
+        <h1>Filmes de drama</h1>
+        <div class="filmes">
+          <a href="filmeAmor.html"><img class="card-filme" src="assets/images/amor.png"
+              alt="Imagem de um filme de drama chamado amor"></a>
+          <a href="filmeBatalhao6888.html"><img class="card-filme" src="assets/images/batalha6888.png"
+              alt="Imagem de um filme de drama chamado batalha 6888"></a>
+          <a href="filmeEncontroMarcado.html"><img class="card-filme" src="assets/images/encontromarcado.png"
+              alt="Imagem de um filme de drama chamado encontro marcado"></a>
+          <a href="filmeFeios.html"><img class="card-filme" src="assets/images/feios.png"
+              alt="Imagem de um filme de drama chamado feios"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé-->
+  <footer class="footer">
+    <div class="avatar">
+      <img src="assets/images/avatar.png" alt="Avatar da locadora">
+    </div>
+    <div class="footer-container">
+      <p>Web developers: Ana Carolina Fuentes e Samuel de Mello Cagnani</p>
+      <a href="https://portal.pcs.ifsuldeminas.edu.br/">Instituto Federal do Sul de Minas Gerais - Campus Poços de
+        Caldas - 2025</a>
+    </div>
+    <div class="pipoca">
+      <img src="assets/images/popcorn.png" alt="Imagem ilustrativa de um balde de pipocas">
+    </div>
+  </footer>
+
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

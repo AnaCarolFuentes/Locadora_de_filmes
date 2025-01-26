@@ -1,0 +1,97 @@
+@import url('global.css');
+
+/* Barra de navegação */
+.logo img
+{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    object-fit: cover;
+}
+.navbar {
+    width: 100%;
+    background: var(--nav-bar-color);
+    padding: 0 1rem;
+    position: fixed;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    text-align: center;
+    border-bottom: 2px solid var(--details);
+    z-index: 10;
+}
+.navbar-container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    top: 0;
+    left: 0;
+    height: 8vh;
+  }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .nav-links a {
+    color: var(--text-color);
+    text-decoration: none;;
+    text-align: center;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    width: 191px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-links a:hover {
+    background-color: var(--link-color);
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    text-decoration: underline;
+  }
+
+  .item-atual a
+  {
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    transition: transform 0.3s ease;
+  }
+
+  .imagem_login img
+  {
+    height: 40px;
+    position: relative;
+    object-fit: cover;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a {
+        width: auto;
+        height: auto;
+        margin: 0.5rem 0;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        padding: 0.5rem;
+    }
+}

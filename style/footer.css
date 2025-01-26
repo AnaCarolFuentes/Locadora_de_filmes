@@ -1,0 +1,61 @@
+@import url('global.css');
+
+/* Estilo do rodapé */
+.footer {
+    display: flex;
+    background-color: var(--footer-color);
+    color: var(--background-color);
+    text-align: center;
+    justify-content: space-around;
+    padding: 1rem 1;
+    position: relative;
+    width: 100%;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer a,
+p {
+
+    color: var(--background-color);
+    /* Cor do link */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    font-weight: bold;
+    margin: 1vh;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    height: 23px;
+
+}
+
+
+.footer a:hover {
+    color: rgb(239, 43, 49);
+    /* Cor do link ao passar o mouse */
+}
+
+.avatar img {
+    width: 109px;
+    height: 162px;
+    position: relative;
+    object-fit: cover;
+}
+
+.pipoca img {
+    width: 160px;
+    height: 149px;
+    position: relative;
+    object-fit: cover;
+}

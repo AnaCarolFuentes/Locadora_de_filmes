@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Cadastro</title>
+</head>
+
+<body>
+
+  <!----------Barra de navegação-------->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="assets/images/popcorn.png" alt="Logo da locadora popcornflix">
+    </div>
+  </nav>
+
+  <main class="main-cadastro">
+    <!-- Container de Cadastro -->
+    <div class="cadastro-imagem">
+      <img src="assets/images/avatar.png" alt="Avatar">
+    </div>
+    <div class="separacao_container">
+
+      <div class="cadastro-header">
+        <h2>Cadastro</h2>
+      </div>
+      <div class="cadastro-container">
+        <form class="cadastro-form" method="post">
+          <div class="form-group">
+            <label for="username">Nome</label>
+            <input type="text" id="username" placeholder="Digite seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="useradress">Endereço</label>
+            <input type="text" id="endereco" placeholder="Digite seu endereço" required>
+          </div>
+          <div class="form-group">
+            <label for="useremail">E-mail</label>
+            <input type="text" id="email" placeholder="Digite seu e-mail" required>
+          </div>
+          <div class="form-group">
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+              <option value="SP">SP</option>
+              <option value="MG">MG</option>
+              <option value="MT">MT</option>
+              <option value="MS">MS</option>
+              <option value="RJ">RS</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="usersexo">Sexo:</label>
+            <div class="radio">
+              <input type="radio" id="feminino" name="sexo" value="feminino" checked>
+              <label for="feminino">Feminino</label>
+              <input type="radio" id="masculino" name="sexo" value="masculinho" checked>
+              <label for="masculino">Masculino</label>
+              <input type="radio" id="outro" name="sexo" value="outro" checked>
+              <label for="outro">Outro</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="checkbox">
+              <label>Escolha os filmes que você mais gosta:</label>
+              <div>
+                <input type="checkbox" name="filmes" value="acao"> Ação<br>
+                <input type="checkbox" name="filmes" value="aventura"> Aventura<br>
+                <input type="checkbox" name="filmes" value="comedia"> Comédia<br>
+                <input type="checkbox" name="filmes" value="suspense"> Suspense<br>
+                <input type="checkbox" name="filmes" value="drama"> Drama<br>
+                <input type="checkbox" name="filmes" value="romance"> Romance<br>
+                <input type="checkbox" name="filmes" value="terror"> Terror<br>
+              </div>
+            </div>
+          <div class="form-group">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" placeholder="Digite seu usuário" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+          </div>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="sem_uso"><a href="index.html">Cancelar</a></button>
+        <button type="button" class="sem_uso"><a href="cadastro.html">Limpar</a></button>
+        <button type="button" class="sem_uso"><a href="cadastro.html">Cadastrar</a></button>
+      </div>
+      <div class="buttons">
+        <button type="submit" class="btn"><a href="login.html">Voltar</a></button>
+        <button type="submit" class="btn"><a href="index.html">Entrar</a></button>
+      </div>
+    </div>
+    </form>
+
+  </main>
+
+  <!-- Rodapé-->
+  <footer class="footer">
+    <div class="avatar">
+      <img src="assets/images/avatar.png" alt="Avatar da locadora">
+    </div>
+    <div class="footer-container">
+      <p>Web developers: Ana Carolina Fuentes e Samuel de Mello Cagnani</p>
+      <a href="https://portal.pcs.ifsuldeminas.edu.br/">Instituto Federal do Sul de Minas Gerais - Campus Poços de
+        Caldas - 2025</a>
+    </div>
+    <div class="pipoca">
+      <img src="assets/images/popcorn.png" alt="Imagem ilustrativa de um balde de pipocas">
+    </div>
+  </footer>
+
+</body>
+
+</html>

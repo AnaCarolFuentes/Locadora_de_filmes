@@ -1,0 +1,113 @@
+@import url('global.css');
+
+.main_login
+{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-header {
+    display: inline-flex;
+    align-items: center;
+    width: 15vh;
+    justify-content: space-between;
+}
+
+.login-header .avatar {
+    width: 59px;
+    height: 150px;
+    position: relative;
+    object-fit: cover;
+}
+
+.login-header h2 {
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    position: relative;
+}
+
+.login-container {
+    background-color: var(--shape-transparency);
+    border: 1px solid #444;
+    padding: 2rem;
+    width: 50vh;
+    height: 22vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-bottom: 2px solid var(--details);
+    background: none;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-bottom: 2px solid var(--footer-color);
+}
+
+.buttons {
+    display: flex;
+    margin-top: 3rem;
+    width: 50vh;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.buttons a
+{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.btn {
+    width: 10vh;
+    background: none;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--details);
+    color: #000;
+}
+
+.sem_uso
+{
+    border: 1px solid var(--text-color);
+    background-color: var(--details);
+    width: 10vh;
+}

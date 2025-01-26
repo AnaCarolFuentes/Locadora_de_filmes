@@ -1,0 +1,72 @@
+.trailer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 10vh;
+}
+
+.trailer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha centralmente o título e o vídeo */
+    gap: 10px; /* Espaço entre o título e o vídeo */
+}
+
+.nome_trailer {
+    background-color: var(--shape-transparency);
+    width: 100%; /* Ocupa a largura do card */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--details);
+    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
+    font-weight: bold;
+}
+
+.nome_trailer p
+{
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;  
+}
+
+.card_trailer {
+    background: var(--shape-transparency);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.card_trailer iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* Garantir a proporção do vídeo */
+    border-radius: 10px;
+}
+
+.card_trailer:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_trailer h1
+{
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+}
+
+.titulo_trailer 
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5vh;
+}

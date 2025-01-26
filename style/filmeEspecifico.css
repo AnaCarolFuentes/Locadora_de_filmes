@@ -1,0 +1,93 @@
+@import url('global.css');
+
+.container_filme
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.dados_filme
+{
+    border: 1px solid var(--details);
+    padding: 1.5rem;
+    background-color: var(--shape-transparency);
+    border-radius: 10px;
+    width: 48vh;
+
+}
+
+.dados_filme h1
+{
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 1vh;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dados_filme h3
+{
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 1vh;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline 2px var(--details);
+    margin-top: 10px;
+}
+
+.dados_filme p
+{
+    color: var(--text-color);
+    margin: 1vh;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sinopse
+{
+    height: 8vh;
+}
+
+.button_filme
+{
+    display: flex;
+    margin-top: 3rem;;
+    justify-content: center;    
+    align-items: center;
+    width: 50vh;
+    height: 50px;
+}
+
+.button_filme a
+{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.button_container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    width: 10vh;
+    height: 5vh;
+    background: none;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: var(--details);
+    color: #000;
+}

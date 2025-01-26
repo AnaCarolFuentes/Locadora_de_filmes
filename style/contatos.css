@@ -1,0 +1,20 @@
+@import url('global.css');
+
+.form-group fieldset
+{
+    width: 40vh;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid var(--details);
+    margin-top: 2vh;
+
+}
+
+.caixa input
+{
+    border: none;
+    text-align: center;
+}
+
