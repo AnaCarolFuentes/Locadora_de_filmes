@@ -1,0 +1,69 @@
+.trilha {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    margin-bottom: 10vh;
+}
+
+.trilha-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha centralmente o título e o vídeo */
+    gap: 10px; /* Espaço entre o título e o vídeo */
+}
+
+.nome_trilha {
+    background-color: var(--shape-transparency);
+    width: 100%; /* Ocupa a largura do card */
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--details);
+    font-size: 1.2rem; /* Ajuste do tamanho da fonte */
+    font-weight: bold;
+}
+
+.nome_trilha p
+{
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    position: relative;  
+}
+
+.card_trilha {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card_trilha:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_trilha_sonora h1
+{
+    color: var(--text-color);
+    text-align: left;
+    font-family: "Kadwa-Regular", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+}
+
+.titulo_trilha_sonora
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5vh;
+}

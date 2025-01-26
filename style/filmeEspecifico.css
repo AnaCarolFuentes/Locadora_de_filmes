@@ -38,6 +38,7 @@
     font-size: 18px;
     font-weight: 400;
     text-decoration: underline 2px var(--details);
+    margin-top: 10px;
 }
 
 .dados_filme p
