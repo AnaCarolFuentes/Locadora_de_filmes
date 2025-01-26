@@ -76,3 +76,22 @@
     position: relative;
     object-fit: cover;
   }
+
+
+  @media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a {
+        width: auto;
+        height: auto;
+        margin: 0.5rem 0;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        padding: 0.5rem;
+    }
+}
